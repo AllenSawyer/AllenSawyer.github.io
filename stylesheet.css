@@ -1,0 +1,141 @@
+/*
+    Name: Allen Sawyer
+    Project: Online Profile
+    Date: 12/11/2023
+*/
+
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    padding: 1em;
+}
+
+.brand {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.center-nav {
+    display: inline-block;
+}
+
+.center-nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 10px;
+}
+
+.center-nav a:hover {
+    background-color: rgba(255, 0, 0, 0.338);
+    color: black;
+}
+
+.center-nav a.active {
+    background-color: rgba(255, 0, 0, 0.638);
+    color: white;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    border: purple 3px solid;
+    margin: 10px 10px 0px 10px;
+    padding: 20px;
+}
+
+img {
+    border: black 3px solid;
+}
+
+p {
+    font-size: 19px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: black 2px solid;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr {
+    height: 50px;
+}
+
+th:first-child,
+td:first-child {
+    width: 10%;
+}
+
+th:nth-child(2),
+td:nth-child(2),
+th:nth-child(3),
+td:nth-child(3) {
+    width: 45%;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.column:nth-child(1) img,
+.column:nth-child(2) img,
+.column:nth-child(3) img {
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .column:nth-child(1) img,
+    .column:nth-child(2) img,
+    .column:nth-child(3) img {
+        margin-left: 15px;
+        width: 250px;
+        height: 230px;
+    }
+}
+
+hr {
+    color: rgba(255, 0, 0, 0.396);
+}
